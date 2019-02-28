@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.7;
+  background-color: #e2e2e2;
+}
+
+.subtitulos{
+  text-transform: capitalize;
+}
+
+.back{
+  border: none;
+  background-color: rgb(201, 201, 201);
+  transform: scale(2);
+  margin-left: 10px;
+}
+
+.profile-container{
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 40px 50px 50px 50px;
+  padding-bottom: 40px;
+  background-color: #0808081c;
+}
+
+.img-container{
+  text-align: center;
+}
+
+.profile-photo{
+  margin: 30px 0;
+  border-radius: 50%;
+  width: 2  00px;
+  height: 300px;
+}
+
+.nameProfile{
+  text-transform: capitalize;
+}
+
+h2{
+  color: #424242;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3{
+  color: #424242;
+  margin-bottom: 7px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  margin-left: 15px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+.professional{
+  color: #313131;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 40px 50px 50px 50px;
+  background-color: #eeeeee;
+  width: 350px;
+  transition: all .5s;
+}
+
+.professional:hover{
+  transform: translateY(-10px);
+}
+
+.Personal{
+  color: #313131;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 40px 50px 50px 50px;
+  background-color: #eeeeee;
+  width: 350px;
+  transition: all .5s;
+}
+
+.Personal:hover{
+  transform: translateY(-10px);
+}
+
+.avatar{
+  width:100px;
+  height: 100px;
+}
+.wouldLike{
+  color: #313131;
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 40px 50px 50px 50px;
+  background-color: #eeeeee;
+  width: 350px;
+  transition: all .5s;
+}
+
+.wouldLike:hover{
+  transform: translateY(-10px);
+}

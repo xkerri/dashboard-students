@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seito Showcase</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/stylef.css" />
+  </head>
+  <body>
+    <div class="list-seitos">
+      <div class="search-list">
+        <h2>Miembros del equipo</h2>
+        <form id="busqueda" action="javascript:void(0);">
+          <select class="typesearch">
+            <option value="Name">Nombre</option>
+            <option value="Paternal_surname">Apellido Paterno</option>
+            <option value="Maternal_surname">Apellido Materno</option>
+            <option value="Area">Area</option>
+          </select>
+          <input
+            type="text"
+            id="valor"
+            class="input"
+            name=""
+            value=""
+            placeholder="Search"
+            onkeyup="filter()"
+          />
+          <!--<button type="button" onclick="filter('valor')" name="Enviar">Enviar</button> -->
+        </form>
+      </div>
+      <div class="seitos-container">
+        <table>
+          <thead>
+            <th>#</th>
+            <th>Fotografia</th>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>Area</th>
+            <th>Skillsets</th>
+            <th>Opción</th>
+          </thead>
+          <tbody id="content"></tbody>
+        </table>
+      </div>
+    </div>
+    <script type="text/javascript" src="javascript/index.js"></script>
+  </body>
+</html>
